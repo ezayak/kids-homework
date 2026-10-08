@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kids Homework</title>
+<meta name="description" content="A private, family-use tool that collects a parent's own children's school assignments into one place.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <a class="brand" href="index.html">Kids Homework</a>
+    <h1>One place for my kids' homework</h1>
+    <p class="lede">A small private tool I run on my own computer so I don't miss my children's assignments and due dates.</p>
+  </header>
+
+  <h2>What it does</h2>
+  <p>Twice a day, Kids Homework checks my children's school accounts and gathers their assignments in one place, so I can see what is due without relying on the children to check every site themselves.</p>
+  <ul>
+    <li>Reads my children's classes and assignments from <strong>Google Classroom</strong> (read-only).</li>
+    <li>Downloads the files teachers attach to those assignments, so they are saved on my computer, organised by child and subject.</li>
+    <li>Adds one line per new assignment (title, due date, pages, file name, link) to a Google Sheet that belongs to me.</li>
+    <li>Sends me a notification on my computer when something new appears.</li>
+  </ul>
+
+  <div class="card">
+    <strong>Who it is for.</strong> This is a personal, non-commercial tool used only by me, as a parent, for my own children's accounts, with their accounts supervised through Google Family Link. It is not offered to the public and has no sign-up.
+  </div>
+
+  <h2>What it never does</h2>
+  <ul>
+    <li>It never changes, submits, deletes or posts anything in Google Classroom or Google Drive. Access is read-only.</li>
+    <li>It never sells, shares or sends my children's data to anyone else, and shows no ads.</li>
+    <li>It does not use the data for anything other than showing me my children's homework.</li>
+  </ul>
+
+  <h2>Google permissions it asks for</h2>
+  <ul>
+    <li><code>classroom.courses.readonly</code>: see the names of the child's classes.</li>
+    <li><code>classroom.coursework.me.readonly</code>: see the child's own assignments and due dates.</li>
+    <li><code>classroom.courseworkmaterials.readonly</code>: see class materials posted by teachers.</li>
+    <li><code>drive.readonly</code>: download files that teachers attached to those assignments.</li>
+  </ul>
+  <p>Details on how this data is handled are in the <a href="privacy.html">privacy policy</a>.</p>
+
+  <footer>
+    <a href="index.html">Home</a><a href="privacy.html">Privacy policy</a>
+    <p>Contact: <a href="mailto:ezayak@gmail.com">ezayak@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
